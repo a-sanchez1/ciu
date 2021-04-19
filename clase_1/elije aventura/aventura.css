@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aventura__situacion {
+  display: flex;
+  justify-content: center;
+}
+
+.aventura__decisiones {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.aventura__decisiones_caja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+  border: 1px solid blue;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+.flecha {
+  width: 40px;
+  height: 25px;
+}

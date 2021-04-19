@@ -1,0 +1,28 @@
+.rebelde {
+  background-color: blue;
+}
+
+.imperio {
+  background-color: red;
+}
+
+#darthVader {
+  font-size: 40px;
+  /*le podria haber puesto large o larger pero no se notaba mucho la diferencia*/
+}
+
+#lukeSkywalker {
+  font-style: italic;
+}
+
+.soldados {
+  border: 2px red dashed;
+  letter-spacing: 10px;
+}
+
+.apoyo {
+  text-align: center;
+}
+.naves {
+  text-transform: uppercase;
+}
