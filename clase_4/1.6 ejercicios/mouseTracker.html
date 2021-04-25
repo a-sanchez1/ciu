@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            cursor: none;   
+        }
+        
+    </style>
+</head>
+<body>
+    <img style="position: fixed;" src="https://media.giphy.com/media/MtQxKzhytFsmQ/giphy.gif" alt="">
+    <script>
+        const imagen = document.querySelector('img')
+        document.body.addEventListener('mousemove', (e)=> {imagen.style.top = `${e.clientY}px`; imagen.style.left = `${e.clientX}px`})
+    </script>
+</body>
+</html>
