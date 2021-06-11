@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/*  HEADER  */
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  padding: 0 24px;
+  background-color: #097da9;
+}
+
+.min_sal_header_logo {
+  padding: 0.5em 0;
+}
+
+/*   LOGIN   */
+
+label {
+  font-weight: bold;
+}
+#login_page {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.min_sal_login_logo {
+  margin-top: 30px;
+  height: auto;
+  width: 250px;
+  height: auto;
+}
+
+.login {
+  width: 300px;
+}
+
+.login_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  width: 100%;
+  border-radius: 5px;
+  margin: 5px 0;
+  padding: 2px;
+}
+.input::placeholder {
+  padding-left: 10px;
+}
+
+/* pagina principal header*/
+
+.header_user > p {
+  font-weight: bolder;
+  color: white;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.header_user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.botonSalir {
+  background-color: rgba(171, 0, 0, 0.87);
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+}
+.botonSalir > a {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+/*  pagina principal  */
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.farmacia_card {
+  width: 320px;
+  height: 460px;
+  margin-top: 30px;
+  border: black 2px solid;
+  border-radius: 5px;
+}
+
+.descuento {
+  background-color: rgb(13, 133, 127);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.descuento_texto {
+  color: white;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.farmacia_logo {
+  height: 240px;
+  background-color: white;
+}
+.farmacia_logo > img {
+  height: 200px;
+  width: 100%;
+}
+
+.farmacia_info {
+  background-color: #025a68;
+  border-radius: 3px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.farmacia_nombre {
+  color: white;
+  font-size: larger;
+  font-weight: 900;
+}
+
+.farmacia_direccion {
+  color: white;
+  font-size: medium;
+}
+
+.farmacia_fechaVal {
+  color: white;
+  font-size: small;
+}
